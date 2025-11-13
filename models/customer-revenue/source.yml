@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: L1_LANDING
+    database: SLEEKMART_OMS
+    schema: L1_LANDING_DEV
+    tables:
+      - name: customers
+        identifier: CUSTOMERS
+      - name: orders
+        identifier: ORDERS
+      - name: orderitems
+        identifier: ORDERITEMS
+      - name: employees
+        identifier: EMPLOYEES
+      - name: stores
+        identifier: STORES
+      - name: suppliers
+        identifier: SUPPLIERS
+      - name: products
+        identifier: PRODUCTS
